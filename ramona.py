@@ -8,7 +8,9 @@ import os
 # ---------------------------------------------------
 mitad1="MTQzMDIxMzc4MDU1NzY2MDIxMA.GZuAx-."
 mitad2="qiqsSFSXBuON3sGohCFge9DQiJ6JaXfmbWfDw4"
-TOKEN = mitad1+mitad2
+letras = mitad1+mitad2
+TOKEN = os.getenv(letras)
+print("TOKEN =", TOKEN)
 SERVER_ID = 1386808683274440846  # ID de tu servidor
 
 bot = interactions.Client(
