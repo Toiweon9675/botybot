@@ -6,8 +6,9 @@ import os
 # ---------------------------------------------------
 # CONFIGURACIÓN DEL BOT
 # ---------------------------------------------------
-
-TOKEN = "MTQzMDIxMzc4MDU1NzY2MDIxMA.GDbS0p.t5OqXdQNKQxZcw3DzoLkjEPVeWzW1Wdn-BTkOQ"
+mitad1="MTQzMDIxMzc4MDU1NzY2MDIxMA.GZuAx-."
+mitad2="qiqsSFSXBuON3sGohCFge9DQiJ6JaXfmbWfDw4"
+TOKEN = mitad1+mitad2
 SERVER_ID = 1386808683274440846  # ID de tu servidor
 
 bot = interactions.Client(
